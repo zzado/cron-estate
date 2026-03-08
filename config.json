@@ -1,4 +1,5 @@
 {
   "scan_interval_minutes": 30,
+  "report_times": ["09:00", "14:00"],
   "complexes": []
 }

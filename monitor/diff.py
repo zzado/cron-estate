@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 매물 변동 감지 엔진
 신규 매물, 가격 변동, 삭제된 매물을 탐지

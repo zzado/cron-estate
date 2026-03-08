@@ -52,6 +52,11 @@ CREATE INDEX IF NOT EXISTS idx_articles_complex ON articles(complex_no);
 CREATE INDEX IF NOT EXISTS idx_articles_group_key ON articles(group_key);
 CREATE INDEX IF NOT EXISTS idx_articles_active ON articles(is_active);
 CREATE INDEX IF NOT EXISTS idx_price_history_article ON price_history(article_no);
+
+CREATE TABLE IF NOT EXISTS meta (
+    key     TEXT PRIMARY KEY,
+    value   TEXT
+);
 """
 
 

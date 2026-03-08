@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 네이버부동산 API 클라이언트
 """

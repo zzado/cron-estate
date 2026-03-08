@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """
 동/호수 기반 매물 그룹핑
 같은 물건에 대해 여러 중개사가 올린 매물을 그룹으로 묶기
